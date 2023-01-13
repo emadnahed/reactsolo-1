@@ -10,11 +10,9 @@ export default function App() {
         return <Card {...item} />})
 
     return (
-        
         <div className="contacts">
                 {Directory}    
         </div>
-
     )
 }
 
