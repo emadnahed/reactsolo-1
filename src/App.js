@@ -1,7 +1,8 @@
 import React from "react"
 import Data from "./Data"
 import Card from "./Card"
-
+import Navbar from "./Navbar"
+import Footer from "./Footer"
 
 
 
@@ -10,9 +11,13 @@ export default function App() {
         return <Card {...item} />})
 
     return (
-        <div className="contacts">
-                {Directory}    
-        </div>
+        <>
+            <Navbar />
+            <div className="contacts">
+                    {Directory}    
+            </div>
+            <Footer/>
+            </>    
     )
 }
 
