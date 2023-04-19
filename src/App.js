@@ -13,11 +13,14 @@ export default function App() {
     return (
         <>
             <Navbar />
-            <div className="contacts">
+
+            <div className="cont">
+                <div className="contacts">
                     {Directory}    
+                </div>
             </div>
             <Footer/>
-            </>    
+        </>    
     )
 }
 

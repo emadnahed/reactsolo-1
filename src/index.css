@@ -58,6 +58,7 @@ body {
   padding: 13px;
   padding-bottom: 20px;
   background-color: white;
+  
 }
 
 .contact-card > img {
@@ -113,22 +114,35 @@ footer{
 
 
 
+
 /* Responsive design start*/
-@media screen and (max-width: 700px) {
-  
-  .contacts {
-    margin-bottom: 130px;
+@media screen and (max-width: 1000px) {
+
+  .cont{
+    display: block;
+    /* margin: 10px auto 250px auto; */
+    margin: 10px auto 200px auto;
   }
-
-  footer{
-    position:relative; 
-    margin-top: 920px; 
-    width: 100%; 
-
-    
-
-  } 
-
-
   
 }
+
+
+@media screen and (max-width: 400px) {
+
+  .cont{
+    display: block;
+    margin: 10px auto 950px auto;
+  }
+  
+}
+
+@media screen and (max-width: 800px) {
+
+  .cont{
+    display: block;
+    margin: 10px auto 250px auto;
+  }
+  
+}
+
+
